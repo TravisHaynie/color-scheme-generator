@@ -7,12 +7,23 @@
     <link rel="stylesheet" href="styles.css"></link>
 </head>
 <body>
-    <header>
-        <button id="button" type="button" title="button">Get Color Schemes</button>
-        <input id="input" type="color" title="input">
-    </header>
-    <main id="main-content" class="flex">
-    </main>
-    <script src="/index.js"></script>
+    <section class="max-width">
+        <header class="header">
+            <input id="input" type="color" title="input" class="color-box">
+            <select name="Schemes" type="box" id="mode-select" title="Schemes" class="drop-down-menu">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-Dark</option>
+                <option value="monochrome-light">Monochrome-Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-Complement</option>
+            </select>
+            <button id="button" type="button" title="button" class="get-schemes-btn">Get Color Schemes</button>
+        </header>
+        <main id="main-content" class="flex">
+        </main>
+        <section id="hex-value" class="hex-value"></section>
+        <script src="/index.js"></script>
+    </section>
 </body>
 </html>
