@@ -2,7 +2,7 @@
 .max-width {
     max-width: 800px;
     min-width: 600px;
-    border:1px solid rgb(232, 219, 219);
+    border: 1px solid rgb(232, 219, 219);
     border-radius: 10px;
     margin: auto;
 }
@@ -13,9 +13,10 @@
     justify-content: space-between;
     padding: 2em 0;
 }
+
 .get-schemes-btn {
     background-color: white;
-    border:1px solid rgb(232, 219, 219);
+    border: 1px solid rgb(232, 219, 219);
     border-radius: 5px;
     margin-right: 50px;
 }
@@ -23,13 +24,13 @@
 .drop-down-menu {
     width: 60%;
     padding: 10px;
-    border:1px solid rgb(232, 219, 219);
+    border: 1px solid rgb(232, 219, 219);
     border-radius: 5px;
 }
 
 .color-box {
     background-color: rgb(232, 219, 219);
-    border:1px solid rgb(232, 219, 219);
+    border: 1px solid rgb(232, 219, 219);
     padding: 0;
     block-size: 40px;
     inline-size: 60px;
